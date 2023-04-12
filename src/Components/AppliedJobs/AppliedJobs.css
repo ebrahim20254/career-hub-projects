@@ -1,0 +1,11 @@
+
+
+/* Hide the dropdown menu when the checkbox input is not checked */
+#filter-dropdown:not(:checked) + div {
+  display: none;
+}
+
+/* Show the dropdown menu when the checkbox input is checked */
+#filter-dropdown:checked + div {
+  display: block;
+}
